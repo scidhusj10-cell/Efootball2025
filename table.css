@@ -1,0 +1,37 @@
+
+td.loss {
+    color: red;
+    font-weight:bold;
+}
+td.draw {
+    color: brown;
+    font-weight:bold;
+}
+.notess {
+    color:blueviolet;
+    font-weight:bold;
+}
+.notes {
+  font-size: 14px;
+  color: #555;
+  font-style:italic;
+  margin-top:30px;
+}
+.highlight1 {
+  color: white;
+  background: rgb(128, 0, 0);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.highlight2 {
+  color: white;
+  background: green;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.highlight3 {
+  color: white;
+  background: blue;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
