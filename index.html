@@ -7,8 +7,18 @@
         <link rel="stylesheet" href="table.css">
        
     </head>
-    <body>
-        <form action="homepage.html" method="get"><h2>Register</h2>
+    <body style="background: linear-gradient(to right, rgba(0,128,0,0.8), rgba(233, 245, 223, 0.981), rgba(0,0,255,0.8));">
+        
+        <div style="text-align: center;">
+            <h1>Welcome to the Tournament Registration Page</h1>
+            <p>Please fill in your details to register for the tournament.</p>
+            <h2 style="color:green; margin-bottom:20px;">Register</h2>
+        
+        <span style="color:blue; font-weight:bold;">Note:</span> <span style="font-style:italic;">All fields are mandatory.</span>
+                <br>
+                <br>
+        <form action="homepage.html" method="get">
+            
             What is your name? <input type="text" placeholder="Enter Name" required>
             <br>
             Enter your number <input type="tel" placeholder="Enter Phone Number" pattern="[0-9]{10}" required>
@@ -17,5 +27,6 @@
             <input type="submit" value="Register">
            
         </form>
+        </div>
     </body>
 </html>
